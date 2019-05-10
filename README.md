@@ -35,9 +35,9 @@ export default App
 ```
 ## Props
 
-**height**(number) - height of the component in pixels.
-**width**(number) - width of the component in pixels.
-**background**(string) - background of the component.
+- **height**(number) - height of the component in pixels.
+- **width**(number) - width of the component in pixels.
+- **background**(string) - background of the component.
 
 ## Misc
 - Resizable component takes 100% of parent div's height and width if none is provided as props.
