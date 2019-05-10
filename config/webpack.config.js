@@ -620,6 +620,12 @@ module.exports = function(webpackEnv) {
       ? {
         react: 'react',
         'react-dom': 'react-dom',
+        "@types/jest": "@types/jest",
+        "@types/node": "@types/node",
+        "@types/react": "@types/react",
+        "@types/react-dom": "@types/react-dom",
+        "styled-components": "styled-components",
+        "typescript": "typescript"
       }
       : {},
     // Some libraries import Node modules but don't use them in the browser.
