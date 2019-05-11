@@ -13,6 +13,10 @@ export const StyledResizableDiv = styled.div`
   -khtml-user-select: none;
   -webkit-user-select: none;
   -o-user-select: none;
+
+  .handle {
+    background: ${props => props.background || 'white'} !important;
+  }
 `;
 
 export const ResizableContent = styled.div`

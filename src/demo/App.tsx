@@ -6,7 +6,7 @@ export class App extends Component {
   render() {
     return (
       <div style={{ height: '50vh' }}>
-        <Resizable>
+        <Resizable background="blue">
           <p>HELLOO</p>
           <h1>HASDJHASJKDHASKDh</h1>
         </Resizable>
