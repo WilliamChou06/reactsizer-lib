@@ -8,8 +8,8 @@ import {
   BottomHandle,
   BottomLeftHandle,
   LeftHandle
-} from '../styles/Handles';
-import { ResizableContent } from '../styles/Resizable';
+} from './style';
+import { ResizableContent } from './style';
 
 const ResizingHandles = (props) => (
   <>

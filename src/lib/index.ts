@@ -1,3 +1,3 @@
-import Resizable from './components/Resizable';
+import Resizable from './components/ResizableContainer';
 
 export default Resizable;

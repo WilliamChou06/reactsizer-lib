@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Resizable from '../lib/components/Resizable';
+import Resizable from '../lib/components/ResizableContainer';
 
 
 export class App extends Component {
