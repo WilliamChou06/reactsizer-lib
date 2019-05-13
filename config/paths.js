@@ -62,7 +62,7 @@ const resolveModule = (resolveFn, filePath) => {
     return resolveFn(`${filePath}.${extension}`);
   }
 
-  return resolveFn(`${filePath}.js`);
+  return resolveFn(`${filePath}.ts`);
 };
 
 // config after eject: we're in ./config/
@@ -79,8 +79,8 @@ module.exports = {
   appTsConfig: resolveApp('tsconfig.json'),
   appJsConfig: resolveApp('jsconfig.json'),
   yarnLockFile: resolveApp('yarn.lock'),
-  testsSetup: resolveApp('src/setupTests.js'),
-  proxySetup: resolveApp('src/setupProxy.js'),
+  testsSetup: resolveApp('src/setupTests.ts'),
+  proxySetup: resolveApp('src/setupProxy.ts'),
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
